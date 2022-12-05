@@ -1,0 +1,425 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+    background: hsl(0, 80%, 67%);
+    font-family: 'Merriweather', serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    /*background: hsl(0, 80%, 67%);*/
+    /*background-color: #FF5858;*/
+    background-color: #F05454;
+    height: 70px;
+
+}
+h1{
+    color: #CF0A0A;
+}
+h4{
+    color: #cb1717;
+}
+h2{
+   color: #cb1717;
+}
+p{
+    line-height: 2;
+    color: #413F42;
+}
+h3{
+    color: #EB1D36;
+}
+.button-55 {
+  align-self: center;
+  background-color: #fff;
+  background-image: none;
+  background-position: 0 90%;
+  background-repeat: repeat no-repeat;
+  background-size: 4px 3px;
+  border-radius: 15px 225px 255px 15px 15px 255px 225px 15px;
+  border-style: solid;
+  border-width: 2px;
+  box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+  box-sizing: border-box;
+  color: #41403e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Neucha, sans-serif;
+  font-size: 1rem;
+  line-height: 23px;
+  outline: none;
+  padding: .75rem;
+  text-decoration: none;
+  transition: all 235ms ease-in-out;
+  border-bottom-left-radius: 15px 255px;
+  border-bottom-right-radius: 225px 15px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-55:hover {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+  transform: translate3d(0, 2px, 0);
+}
+
+.button-55:focus {
+  box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+.button-32 {
+  background-color: #fff000;
+  border-radius: 12px;
+  color: #000;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 10px 15px;
+  text-align: center;
+  transition: 200ms;
+  width: 80px;
+  margin: auto auto;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-32:not(:disabled):hover,
+.button-32:not(:disabled):focus {
+  outline: 0;
+  background: #f4e603;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.button-32:disabled {
+  filter: saturate(0.2) opacity(0.5);
+  -webkit-filter: saturate(0.2) opacity(0.5);
+  cursor: not-allowed;
+}
+
+.button-66 {
+  background-color: #0a6bff;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: auto auto;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.button-66:hover {
+  background-color: #065dd8;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
+button{
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+button:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+button:hover {
+  background-color: #2c974b;
+}
+
+button:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+button:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+button:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.logo{
+    width: 50%;
+    padding-left: 2%;
+    
+}
+h2{
+    color: #D2001A;
+}
+.icon-1{
+    height: 50px;
+    float: left;
+    margin-top: 5px;
+    
+
+}
+.logo a{
+    text-decoration: none;
+    color: black;
+}
+.login{
+    width: 50%;
+    text-align: end;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+nav{
+    background: rgb(248, 245, 245);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+}
+nav a:hover{
+    background: rgba(0,0,0,0.3);
+    color: white;
+}
+.upper{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.donor_form{
+    margin-left: 2%;
+    width: 46%;
+    background: rgb(248, 245, 245) ;
+    border-radius: 2%;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.donor_fo{
+    text-align: left;
+    padding-left: 4%;
+}
+.donor_fo input[type=text]{
+    width: 75%;
+}
+.donor_fo h3{
+    font-size: 170%;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+.donor_vid{
+    margin-right: 2%;
+    width: 46%;
+    background: rgb(248, 245, 245) ;
+    border-radius: 2%;
+    color: black;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.donor_vid{
+    font-size: 160%;
+    color: black;
+    text-decoration: none;
+}
+hr{
+    border: 1px solid black;
+}
+.middle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.middle2{
+    background: rgb(248, 245, 245);
+    border-radius: 2%;
+    color: black;
+    text-align: left;
+    padding: 1%;
+    width: 90%;
+}
+.middle2 h2{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+.middle2 h4{
+    text-align: center;
+    color: black;
+}
+.middle2 h3{
+    text-align: center;
+}
+.middle2 p{
+    text-align: center;
+}
+.info{
+    display: flex;
+}
+.lower{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.lower2{
+    background: rgb(248, 245, 245);
+    border-radius: 2%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 90%;
+}
+section{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.data{
+    background: rgb(248, 245, 245);
+    width: 70%;
+}
+.heading{
+    text-decoration: none;
+    font-size: 140%;
+}
+.register{
+    padding-bottom: 1%;
+}
+.register form[type=text]{
+    width: 100%;
+}
+.refer{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.refer2{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    width: 70%;
+}
+.refer_img{
+    width: 70%;
+}
+.refer_cont{
+    width: 30%;
+    padding-top: 3%;
+}
+.why_donate{
+    display: flex;
+    justify-content: center;
+}
+.why_donate2{
+    background: white;
+    width: 70%;
+    text-align: center;
+}
+.why_donate2 h1{
+    text-decoration: none;
+}
+.donate_main{
+    display: flex;
+    justify-content: space-around;
+}
+.donate_img{
+    width: 30%;
+}
+.why_donate_cont{
+    width: 65%;
+    padding-top: 5%;
+}
+.who_give_blood{
+    display: flex;
+    justify-content: center;
+}
+.who_blood{
+    background: white;
+    width: 70%;
+}
+.who_blood h1{
+    text-align: center;
+    text-decoration: none;
+}
+.blood_give_data{
+    padding-left: 2%;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.contact-us{
+    background: white;
+    width:70%;
+    padding: 2%;
+}
+.contact-us{
+    text-align: center;
+    text-decoration: none;
+}
+.contact_info{
+    display: flex;
+    justify-content: space-around;
+}
+.don{
+    text-decoration: none;
+}
